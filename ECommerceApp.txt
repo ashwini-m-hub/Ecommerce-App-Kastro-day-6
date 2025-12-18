@@ -367,11 +367,11 @@ Open pom.xml ----> At the bottom, after 'dependencies' tag paste the below conte
 <distributionManagement>
   <repository>
     <id>maven-releases</id>
-    <url>http://63.33.190.155:8081/repository/maven-releases/</url>
+    <url>http://108.130.255.90:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
     <id>maven-snapshots</id>
-    <url>http://63.33.190.155:8081/repository/maven-snapshots/</url>
+    <url>http://108.130.255.90:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 
@@ -822,4 +822,5 @@ pipeline {
 
 To access the App, we need to get the Load Balancer URL
 kuetl get all -n webapps
+
 
